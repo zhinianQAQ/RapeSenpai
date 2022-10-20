@@ -343,8 +343,8 @@ function shareText(score) {
     SubmitResults();
     if (score <= 49) return '逊呐';
     if (score <= 99) return '加油';
-    if (score <= 149) return '再加把劲';
-    if (score <= 199) return '人？';
+    if (score <= 137) return '这个分数都不够给爹上个舰';
+    if (score <= 199) return '牛逼';
     return 'やりますね';
 }
 
